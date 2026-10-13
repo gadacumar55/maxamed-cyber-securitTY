@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MAXAMED CYBER SECURITY</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080d19;
+    color: white;
+}
+
+header {
+    background: #111b2e;
+    padding: 25px 15px;
+    text-align: center;
+    border-bottom: 2px solid #00ff99;
+}
+
+header h1 {
+    color: #00ff99;
+    font-size: 27px;
+}
+
+header p {
+    color: #b8c5d8;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background: #0d1424;
+}
+
+nav a {
+    color: #00ff99;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero span {
+    color: #00ff99;
+}
+
+.hero p {
+    color: #c2cadd;
+    line-height: 1.7;
+}
+
+button {
+    background: #00ff99;
+    color: #07111b;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+section {
+    padding: 25px 18px;
+}
+
+section h2 {
+    text-align: center;
+    color: #00ff99;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #142039;
+    padding: 22px;
+    border-radius: 12px;
+    margin: 15px auto;
+    max-width: 500px;
+    border: 1px solid #263752;
+}
+
+.card h3 {
+    color: #00ff99;
+}
+
+.card p {
+    color: #d0d8e5;
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background: #111b2e;
+    color: #aebbd0;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MAXAMED CYBER SECURITY</h1>
+    <p>Baro. Ilaali. Guulayso.</p>
+</header>
+
+<nav>
+    <a href="#home">Hoyga</a>
+    <a href="#learn">Waxbarasho</a>
+    <a href="#about">Aniga</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Ku soo dhawoow <span>Cyber World!</span></h2>
+
+    <p>
+        Waxaan baranayaa Web Development iyo Cybersecurity.
+        <br>
+        Ujeeddadaydu waa inaan noqdo xirfadle amniga internetka.
+    </p>
+
+    <button onclick="welcome()">
+        Bilow Safarkaaga
+    </button>
+</div>
+
+<section id="learn">
+    <h2>Waxyaabaha aan baranayo</h2>
+
+    <div class="card">
+        <h3>🌐 Web Development</h3>
+        <p>
+            Baro HTML, CSS iyo JavaScript si aad u dhisto
+            website-yo qurux badan.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🔐 Cybersecurity</h3>
+        <p>
+            Baro ilaalinta computer-ka, website-yada iyo
+            xogta si looga hortago weerarrada internetka.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🛡️ Ethical Hacking</h3>
+        <p>
+            Baro sida loo tijaabiyo amniga nidaamyada
+            adigoo haysta oggolaansho.
+        </p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>Yaan ahay?</h2>
+
+    <div class="card">
+        <h3>Maxamed Cumar</h3>
+        <p>
+            Waxaan ahay arday xiiseeya technology-ga,
+            Web Development iyo Cybersecurity.
+            Waxaan maalin kasta baranayaa xirfado cusub.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MAXAMED CYBER SECURITY</p>
+    <p>Waxaa sameeyay Maxamed Cumar 💻</p>
+</footer>
+
+<script>
+function welcome() {
+    alert("Ku soo dhawoow MAXAMED CYBER SECURITY! Aan wax baranno.");
+}
+</script>
+
+</body>
+</html>
